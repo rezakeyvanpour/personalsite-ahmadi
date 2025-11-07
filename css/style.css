@@ -1,0 +1,92 @@
+:root{
+    --bg:#060911;
+    --btn-color:#acacac;
+}
+
+@import "tailwindcss";
+
+#base{
+    width: 100%;
+    height:100vh;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 400px;
+   
+    
+}
+#header{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--btn-color);
+    display: flex;
+}
+#about{
+    padding-top: 18px;
+    margin-left: 900px;
+}
+#contact{
+    padding-top: 18px;
+    margin-left: 40px;
+}
+#web-development{
+    padding-top: 18px;
+    margin-left: 40px;
+}
+#user-experience{
+    padding-top: 18px;
+    margin-left: 40px;
+}
+#texts-container{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+#small-box{
+    
+    margin-left: 70px;
+    color: var(--btn-color);    
+}
+#back{
+    width: 500px;
+    height: 40px;
+    margin-left: 70px;
+    color: #b8a97f;
+    position: relative;
+}
+#img{
+    
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-right: 200px;
+}
+#git-icon{
+    
+    color: #b8a97f;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#linkdin-icon{
+    width: 43px;
+    height: 43px;
+    color: #b8a97f;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 140px;
+}
+#gmail-icon{
+    width: 54px;
+    height: 54px;
+    color: #b8a97f;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 190px;
+}
+#down-icon{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 110px;
+}
